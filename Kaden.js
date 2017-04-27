@@ -15,6 +15,10 @@ input = document.createElement("input");
 document.body.appendChild(input);
 function stop() {
   if (input.value == 69) {
-    spasm = false;
+    if (spasm) {
+      spasm = false;
+    } else {
+      spasm = true;
+    }
   }
 }
