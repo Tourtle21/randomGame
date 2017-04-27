@@ -1,4 +1,9 @@
 #phil {
-  color: red;
+  color: blue;
   cursor: pointer;
+}
+#josh {
+  color: white;
+  height: 50px;
+  width: 500px;
 }
